@@ -1,0 +1,1 @@
+// File picker type declaration removed as per project cleanup.
