@@ -61,7 +61,7 @@ const SignUpScreen = ({ navigation }: SignUpScreenProps) => {
 
     try {
       // Request signup without Authorization token since it's generated after signup
-      const response = await fetch(`http://192.168.10.142:5000/api/auth/register`, {
+      const response = await fetch(`https://new-2aoi.onrender.com/api/auth/register`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

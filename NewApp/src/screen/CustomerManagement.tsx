@@ -223,7 +223,7 @@ const CustomerManagement: React.FC = () => {
     if (!selectedCustomer) return;
     try {
       const res = await axios.delete(
-        `http://192.168.10.142:5000/api/customer/${selectedCustomer._id}`,
+        `https://new-2aoi.onrender.com/api/customer/${selectedCustomer._id}`,
         {
           headers: token ? { Authorization: `Bearer ${token}` } : {},
         }
